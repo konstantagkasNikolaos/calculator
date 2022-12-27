@@ -1,0 +1,63 @@
+body {
+  background-color: wheat;
+  font-family: Georgia, serif;
+}
+
+.container {
+  border: solid black 1px;
+  border-radius: 5px;
+  width: 250px;
+  margin: 150px auto;
+  background-color: rgb(199, 199, 216);
+  box-shadow: 10px 10px 5px rgb(43, 42, 42);
+}
+
+.display {
+  background-color: black;
+  color: white;
+  padding: 10px 5px 10px 5px;
+  border: solid darkred 1px;
+}
+
+.input {
+  text-align: right;
+  padding: 5px;
+  font-size: small;
+  font-style: italic;
+  border-top: solid darkred 1px;
+}
+
+.result {
+  text-align: right;
+  padding: 5px;
+  font-size: large;
+  font-style: oblique;
+}
+
+.pad-row {
+  text-align: center;
+  margin: 6px 1px;
+}
+
+.cleaner {
+  width: 72%;
+  text-align: left;
+  color: oran
+}
+
+button {
+  margin:0px 2px;
+  padding: 20px;
+  width: 23%;
+  border: solid black 1px;
+  border-radius: 6px;
+  background-color: rgb(77, 94, 94);
+  box-shadow: 2px 2px rgb(43, 42, 42);
+  color: white
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(236, 236, 236);
+  color: black;
+}
